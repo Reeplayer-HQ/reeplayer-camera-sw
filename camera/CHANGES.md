@@ -1,3 +1,7 @@
+## [0.9.0] = 2022-08-20
+### Added 
+- Re-work docker containers for runtime deployment 
+
 ## [0.8.12] = 2022-07-17
 ### Added 
 - Stop recording when the free disk space is less than a threshold (configurable)
