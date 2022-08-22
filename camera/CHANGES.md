@@ -1,4 +1,8 @@
-## [0.9.0] = 2022-08-20
+## [0.9.1] = 2022-08-22
+### Fixed 
+- The live preview with video streaming in web page 
+
+## [0.9.0] = 2022-08-22
 ### Added 
 - Re-work docker containers for runtime deployment 
 
