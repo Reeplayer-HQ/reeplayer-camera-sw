@@ -1,3 +1,7 @@
+## [0.9.3] = 2022-08-22
+### 
+- No change from 0.9.2, used to test auto version update
+
 ## [0.9.2] = 2022-08-22
 ### Added 
 - Auto update of software, by settings, or by user's operation
