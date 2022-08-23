@@ -1,3 +1,8 @@
+## [0.9.2] = 2022-08-22
+### Added 
+- Auto update of software, by settings, or by user's operation
+- Configurable video streaming for live preview in web page  
+
 ## [0.9.1] = 2022-08-22
 ### Fixed 
 - The live preview with video streaming in web page 
