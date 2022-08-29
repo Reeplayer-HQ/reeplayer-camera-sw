@@ -1,3 +1,7 @@
+## [0.9.5] = 2022-08-28
+### 
+- No change from 0.9.4, used to test auto version update
+
 ## [0.9.4] = 2022-08-28
 ### Fixed 
 - Auto update or manually update of the software in web page 
