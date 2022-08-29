@@ -1,3 +1,11 @@
+## [0.9.4] = 2022-08-28
+### Fixed 
+- Auto update or manually update of the software in web page 
+- Using default port number 80 for web page (so could be ignored in URL)
+### Added 
+- Battery percent in web page and in mobile app 
+- All battery info send in the system status 
+
 ## [0.9.3] = 2022-08-22
 ### 
 - No change from 0.9.2, used to test auto version update
@@ -5,7 +13,8 @@
 ## [0.9.2] = 2022-08-22
 ### Added 
 - Auto update of software, by settings, or by user's operation
-- Configurable video streaming for live preview in web page  
+- Configure video streaming on demand for live preview (in web page only)  
+- Remove port number in web gui URL (using default port 80)
 
 ## [0.9.1] = 2022-08-22
 ### Fixed 
