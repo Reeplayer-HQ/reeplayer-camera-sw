@@ -1,4 +1,8 @@
 ## [0.9.5] = 2022-08-28
+### Fixed
+- Software update error 
+
+## [0.9.5] = 2022-08-28
 ### 
 - No change from 0.9.4, used to test auto version update
 
