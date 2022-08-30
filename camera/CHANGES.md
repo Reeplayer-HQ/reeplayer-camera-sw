@@ -1,6 +1,11 @@
-## [0.9.5] = 2022-08-28
+## [0.9.7] = 2022-08-28
+### 
+- No change, for test
+
+## [0.9.6] = 2022-08-28
 ### Fixed
 - Software update error 
+- Uploading error 
 
 ## [0.9.5] = 2022-08-28
 ### 
