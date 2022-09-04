@@ -1,11 +1,20 @@
-## [0.9.7] = 2022-08-28
-### 
-- No change, for test
+## [0.9.8] = 2022-09-02
+### Changed
+- Use only the IP as the web gui url
+- Add username and password for web gui 
+### Fixed 
+- Storage display bug 
 
-## [0.9.6] = 2022-08-28
+## [0.9.7] = 2022-08-30
+### 
+- Duplicate 0.9.6 for testing 
+
+## [0.9.6] = 2022-08-30
 ### Fixed
 - Software update error 
-- Uploading error 
+- Uploading error
+### Changed 
+- Use port 8080 in web gui URL  
 
 ## [0.9.5] = 2022-08-28
 ### 

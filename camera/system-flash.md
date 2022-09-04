@@ -6,7 +6,7 @@ We may run some "custom" installation commands before and aftert the flash of th
 
 The "pre-flash" commands refer to the commands run before we issue the real "flash" command, but after we launch the docker container used for flash. We must use bellow command to force the docker container to stop before the "flash" command, so that we have a chance to run the "pre-flash" commands. (If we run below command without the trailing "bash", the docker container will run the default "pre-flash" commands and then run the "flash" command immediately, so there is no chance to run the "pre-flash" commands.)
 
-    ./flash.sh reeplayer/camera-sw:l4t-system-crc-nx-32.7.2-4 bash 
+    ./flash.sh reeplayer/camera-sw:l4t-system-crc-nx-32.7.2-5 bash 
 
 The supported "pre-flash" commands include: 
 
@@ -83,7 +83,7 @@ Access the device system through SSH:
 
 Pull the docker image from docker.com 
 
-    docker pull reeplayer/camera-sw:l4t-system-crc-nx-32.7.2-4 
+    docker pull reeplayer/camera-sw:l4t-system-crc-nx-32.7.2-5 
 
 # Set Jetson module into recovery mode 
 
