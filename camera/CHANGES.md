@@ -1,3 +1,13 @@
+## [0.9.9] = 2022-09-16
+### Fixed
+- Battery threshold issue 
+- Display the storage as "MB" 
+- Dynamic loading token for each API calling 
+### Added 
+- Temprature of the hardware 
+- Set and display camera name 
+- Set and display footage name 
+
 ## [0.9.8] = 2022-09-02
 ### Changed
 - Use only the IP as the web gui url
