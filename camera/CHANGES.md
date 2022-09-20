@@ -1,3 +1,7 @@
+## [0.9.10] = 2022-09-20
+### Added 
+- Support "dev" and "prod" mode, using different backend service. 
+
 ## [0.9.9] = 2022-09-16
 ### Fixed
 - Battery threshold issue 
