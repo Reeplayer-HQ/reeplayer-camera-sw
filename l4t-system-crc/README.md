@@ -97,7 +97,7 @@ You need to check the output information to make sure there is no error occured,
 
 To this point, the tool is still preparing the L4T system that will be installed into the camera device. Before the real flashing of the L4T system, we can run a series of commands now to customize the L4T system. These commands run before the flash of the system, so are called "pre-flash" commands. Please note that some of the commands could also run after the flash, which are called "post-flash" commands. The difference is, if you are flashing multiple devices at the same time, the results of "pre-flash" commands will be applied to all of the devices, while the "post-flash" commands only apply to the current device.  
 
-The scripts for the commands is in the folder "~/system-tools", so the command (e.g. set-serial) should be run as below: 
+The scripts for the commands is in the folder "system-tools", so the command (e.g. set-serial) should be run as below: 
 
     cd system-tools 
     ./set-serial.sh -s <serial-number>
@@ -108,7 +108,8 @@ The supported "pre-flash" commands include:
     2. set-serial.sh -s <serial-numer> -t <token> (you may run it to set a unique serial number for the caemra. the token is optional, for testing installation only)
     3. set-wifi-ap.sh -a <address> -s <ssid> -p <password> (you may run it to set unique WiFi AP SSID and password)
     4. set-wifi-station.sh -s <ssid> -p <password> (you may set the known WiFi SSID and password if you hope the camera can connect to the WiFi hotspot when start.)
-    5. install-camera.sh <version> (install the camera software. It is not implemented yet, please do it with post-flash command.)
+    5. set-service.sh -d <true | 1> -u <service URL for dev mode> (you may run it to set the camera into "dev" mode. The service URL for dev mode could be set with -u option. If the URL is not set, the default URL "https://api.dev.reeplayer.com" will be used.)
+    6. install-camera.sh <version> (install the camera software. It is not implemented yet, please do it with post-flash command.)
 
 Once you complete the necessary pre-flash commands, you may issue command to do the real flash. There are three commands you may run, which are for different purposes. 
 
@@ -178,7 +179,8 @@ The supported "post-flash" commands include:
     3. set-wifi-ap.sh -a <address> -s <ssid> -p <password> (if the camera need a unique WiFi AP SSID and password, then run this command before or after flash to set it.)
     4. set-wifi-station.sh -s <ssid> -p <password> (it is optional to set the known WiFi hotspot so the camera can establish the WiFi connection (as WiFi client/station) after start.)
     5. set-nvme.sh (!!! this command must run once to install the SSD drive.)
-    6. install-camera.sh <version> (!!! this should run once to install the Reeplayer camera software)
+    6. set-service.sh -d <true | 1> -u <service URL for dev mode> (you may run it to set the camera into "dev" mode. The service URL for dev mode could be set with -u option. If the URL is not set, the default URL "https://api.dev.reeplayer.com" will be used.)
+    7. install-camera.sh <version> (!!! this should run once to install the Reeplayer camera software)
 
 1. Flash the firmware for the power control MCU 
 
